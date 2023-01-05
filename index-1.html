@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>MOBILIK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mobilink" />
+    <meta name="keywords" content="" />
+    <meta content="Mario Muratori" name="author" />
+   <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0b993312ed.js" crossorigin="anonymous"></script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/colors/light-blue.css" id="color-opt">
+</head>
+
+<body>
+
+    <!-- STRAT NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.mobilink.cl/"><img src="https://www.mobilink.cl/img/logo-mobilink-01-01.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto" id="navbar-navlist">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#trunking">Trunking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#postventa">Post Venta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul><!-- end ul -->
+                <div>
+                    <ul class="text-end list-unstyled list-inline mb-0 nav-social">
+                        <li class="list-inline-item text-white nav-number"><i class="ti-mobile"></i> <span>+562 2240 6100</span></li>
+                        <a href="#" class="btn btn-round btn-primary">Cotiza aquí</a>
+                    </ul><!-- end ul -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HOME -->
+    <section class="section bg-home" id="home">
+        <video id="moodvideo" autoplay muted loop>
+            <source src="video/video1.mp4" type='video/mp4'>
+         </video>
+        <div class="bg-overlay"></div>
+        <div class="home-center">
+            <div class="home-desc-center">
+                <div class="container">
+                    <div class="row vertical-content">
+                        <div class="col-lg-7">
+                            <div>
+                                <h1 class="text-white home-title mb-0">Una comunicación real requiere herramientas adecuadas
+                                </h1>
+                                <p class="text-muted home-subtitle mt-4 mb-0">Manten coordinación en tiempo real con los distintos equipos de trabajo es fundamental para maximizar la eficiencia operativa.</p>
+                                <div class="mt-4">
+                                    <a href="#trunking" class="btn btn-outline-white btn-round">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-5 mt-3">
+                            <div class="home-registration-form mx-auto bg-white w-75 p-4">
+                                <h5 class="form-title mb-4 text-center fw-bold">COTIZA CON NOSOTROS Y SOLICITA TU DEMO</h5>
+                                <form class="registration-form">
+                                    <label class="">Nombre y apellido:</label>
+                                    <input type="text" id="exampleInputName1"
+                                        class="form-control mb-2 registration-input-box">
+                                    <label class="">Email:</label>
+                                    <input type="email" id="exampleInputEmail1"
+                                        class="form-control mb-2 registration-input-box">
+                                    <label class="">Teléfono:</label>
+                                    <input type="tel" id="tel"
+                                        class="form-control mb-2 registration-input-box">
+                                    <button class="btn btn-primary w-100 mt-3 text-uppercase">Enviar</button>
+                                </form><!-- end form -->
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END HOME -->
+
+    <!-- START SERVICES -->
+    <section class="section" id="trunking">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12">
+                    <img class="services-icon" src="images/walkie-talkie.png">
+                    <p></p>
+                    <h3 class="title">Servicio <span class="fw-bold">Trunking</span></h3>
+                    <p class="mt-3 title-subtitle mx-auto">Coordinación operativa de la fuerza de trabajo en tiempo real</p>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="services-box">
+                        <div class="services-icon">
+                            <img src="images/llamada-grupal.png">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="services-title fw-bold mb-3">Llamada grupal sin restricción</h5>
+                            <p class="services-subtitle">Llamada grupal <b>ILIMITADA SIN RESTRICCIÓN</b> de grupos ni usuarios</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="services-box">
+                        <div class="services-icon">
+                            <img src="images/llamada-privada.png">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="services-title fw-bold mb-3">Llamada privada</h5>
+                            <p class="services-subtitle">Llamada <b>PRIVADA</b>, proporciona una conexión instantánea “uno-a-uno”</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="services-box">
+                        <div class="services-icon">
+                            <img src="images/llamada-predictiva.png">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="services-title fw-bold mb-3">Llamada predictiva</h5>
+                            <p class="services-subtitle">Permite mayor velocidad de comunicación al simplificar la escritura de mensajes de texto
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="services-box">
+                        <div class="services-icon">
+                            <img src="images/llamada-sos.png">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="services-title fw-bold mb-3">Llamada de emergencia</h5>
+                            <p class="services-subtitle">Usada por los usuarios de estaciones móviles para informar al despachador sobre alguna situación riesgosa</p>
+                        </div>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+           
+        </div>
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- START FETURES -->
+    <section class="section bg-light" id="features">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12">                    
+                    <img class="services-icon" src="images/antena.png">
+                    <p></p>
+                    <h3 class="title">Nuestros <span class="fw-bold">Servicios</span></h3>
+                    <p class="mt-3 title-subtitle mx-auto">Todas las caracteristicas que tenemos para ofrecerles</p>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row mt-5 vertical-content">
+                <div class="col-lg-4 mt-2">
+                    <div>
+                        <img src="images/radioco.png" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-5 offset-lg-1 mt-2">
+                    <div class="features-desc">
+                        <h2>Experimente comunicaciones sin limitaciones
+                        </h2>
+                        <p class="mt-3"><b>MOTOTRBO Connect Plus</b> le permite extender sus comunicaciones mucho más allá de la voz.<br>Sus aplicaciones de datos integrados permiten que su fuerza de trabajo acceda a información en tiempo real.</p>
+                        <a href="#" class="btn btn-primary btn-round mt-3">PIDA ASESORÍA<i
+                                class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <br>
+            <div class="row mt-5 pt-5 vertical-content">
+                <div class="col-lg-4 mt-2">
+                    <div class="features-desc">
+                        <h2>Radios Motorola</h2>
+                        <p class="mt-3">Integramos nuestro servicio con los nuevos equipos Motorola DGP8550 - DGP8050 - DGM8500 y SL8550</p>
+                        <a href="#" class="btn btn-primary btn-round mt-3">QUIERO SABER MÁS<i
+                                class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div><!-- end col -->
+                <div class="col-lg-5 offset-lg-1 mt-2">
+                    <div>
+                        <img src="https://www.mobilink.cl/imgcobertura/equipos.png" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div>
+    </section>
+    <!-- END FEATURES -->
+
+
+
+    <!-- START TEAM -->
+    <section class="section" id="postventa">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12">
+                    <img src="images/postventa.png">
+                    <p></p>
+                    <h3 class="title">Equipo <span class="fw-bold">POST</span> VENTA</h3>
+                    <p class="mt-3 title-subtitle mx-auto">Nuestro equipo de Post Venta proporciona atención personalizada, con especial cuidado en las necesidades <b>Técnico–Operativas y Administrativas</b></p>
+                </div>
+                <p></p>
+                <!-- end col -->
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wc-box rounded text-center wc-box-primary p-4">
+                                <div class="wc-box-icon">
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>                                                                    </div>
+                                <h5 class="fw-bold mb-2 wc-title mt-4">Técnico Capacitador en terreno y Soporte Aplicaciones
+                                </h5>
+                                <p class="mb-0 font-size-15 wc-subtitle">Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem. </p>
+                            </div>
+                            <div class="wc-box rounded text-center wc-box-primary p-4">
+                                <div class="wc-box-icon">
+                                    <i class="fa-solid fa-handshake"></i>                                </div>
+                                <h5 class="fw-bold mb-2 wc-title mt-4">Ejecutivo de Postventa
+                                </h5>
+                                <p class="mb-0 font-size-15 wc-subtitle">Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="wc-box rounded text-center wc-box-primary p-4">
+                                <div class="wc-box-icon">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
+                                <h5 class="fw-bold mb-2 wc-title mt-4">Plan de Visitas de Mantención Preventiva</h5>
+                                <p class="mb-0 font-size-15 wc-subtitle">Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem. Sed ut perspiciatis unde omnis iste
+                                    natus error sit voluptatem.</p>
+                            </div>
+                            <div class="wc-box rounded text-center wc-box-primary p-4">
+                                <div class="wc-box-icon">
+                                    <i class="fa-solid fa-walkie-talkie"></i>
+                                </div>
+                                <h5 class="fw-bold mb-2 wc-title mt-4">Derechos y Deberes del Consumidor</h5>
+                                <p class="mb-0 font-size-15 wc-subtitle">Más información <a href="https://www.mobilink.cl/pdf/Derechos-Deberes-Subtel.pdf">aquí</a> acerca de los derechos y deberes del consumidor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- end row -->
+        </div>
+        
+    </section>
+    <!-- END TEAM -->
+
+    <!-- START CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h3 class="mb-4">¿Tienes otras preguntas o necesitas ayuda?</h3>
+                        <div class="">
+                            <a href="#" class="btn btn-round btn-primary">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TEAM -->
+
+    <!-- STRAT TESTIMONIAL -->
+    <section class="section bg-client" id="testi">
+        <div class="container">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-lg-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center w-75 mx-auto">
+                                    <div class="testi-icon text-white">
+                                        <i class="ti-quote-left"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <p class="user-review text-center">Risus cubilia etiam parturient augue nostra
+                                            sodales sit aptent venenatis magna sapien
+                                            ante hendrerit ullamcorper tincidunt urna eget Ante feugiat.</p>
+                                        <div class="">
+                                            <img src="images/testi/testi-1.jpg" alt=""
+                                                class="rounded-circle testi-user mx-auto d-block">
+                                        </div>
+                                        <p class="testi-user-name text-center text-white mb-0 mt-4">- Mario Muratori</p>
+                                        <p class="text-muted">
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end carousel-item -->
+                            <div class="carousel-item">
+                                <div class="text-center w-75 mx-auto">
+                                    <div class="testi-icon text-white">
+                                        <i class="ti-quote-left"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <p class="user-review text-center">Risus cubilia etiam parturient augue nostra
+                                            sodales sit aptent venenatis ullamcorper tincidunt urna, eget magna sapien
+                                            ante hendrerit Ante feugiat.</p>
+                                        <div class="">
+                                            <img src="images/testi/testi-2.jpg" alt=""
+                                                class="rounded-circle testi-user mx-auto d-block">
+                                        </div>
+                                        <p class="testi-user-name text-center text-white mb-0 mt-4">- Mario Muratori</p>
+                                        <p class="text-muted">
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end carousel-item -->
+                            <div class="carousel-item">
+                                <div class="text-center w-75 mx-auto">
+                                    <div class="testi-icon text-white">
+                                        <i class="ti-quote-left"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <p class="user-review text-center">Risus cubilia etiam parturient augue nostra
+                                            sodales sit aptent venenatis magna ullamcorper tincidunt urna, eget sapien
+                                            ante hendrerit Ante feugiat.</p>
+                                        <div class="">
+                                            <img src="images/testi/testi-3.jpg" alt=""
+                                                class="rounded-circle testi-user mx-auto d-block">
+                                        </div>
+                                        <p class="testi-user-name text-center text-white mb-0 mt-4">- Mario Muratori</p>
+                                        <p class="text-muted"> 
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                            <span class="ti-star text-warning"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end carousel item -->
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-bs-slide="prev">
+                            <div class="test_nav_left owl-prev"><i class="ti-angle-left"></i></div>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-bs-slide="next">
+                            <div class="test_nav_right owl-nex"><i class="ti-angle-right"></i></div>
+                        </a>
+                    </div><!-- end -->
+                </div><!-- end col --> 
+            </div><!-- end row -->
+        </div>
+    </section>
+    <!-- END TESTIMONIAL -->
+
+
+
+
+ 
+
+    <!-- CONTACT FORM START-->
+    <section class="section " id="contacto">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12">
+                    <img src="images/contacto.png">
+                    <p></p>
+                    <h3 class="title"><span class="fw-bold">Contáctenos</span></h3>
+          
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mt-4 pt-4">
+                        <p class="mt-4"> <span class="fw-bold ">Teléfono:</span><br> <span
+                                class="d-block mt-2">+562 2240 6100</span></p>
+                        <p class="mt-4"><span class="fw-bold ">Dirección:</span><br> <span
+                                class="d-block mt-2">Cerro Colorado 5240, Piso 14, Edificio del Parque II, Las Condes,
+                                Santiago de Chile</span></p>
+                        <p class="mt-4"><span class="fw-bold ">Email:</span><br> <span
+                                class="d-block mt-2">mobilink@motorolasolutions.com</span></p>
+                        <p class="mt-4"><span class="fw-bold ">Horario:</span><br> <span
+                                class="d-block mt-2">Lunes a Jueves 9:00 a 18:00 hrs<br>
+                                Viernes 9:00 a 17:00 hrs</span></p>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-8">
+                    <div class="custom-form mt-4 pt-4">
+                        <form method="post" name="myForm" onsubmit="return validateForm()">
+                            <p id="error-msg"></p>
+                            <div id="simple-msg"></div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="name" id="name" type="text" class="form-control"
+                                            placeholder="Nombre y apellido*">
+                                    </div>
+                                </div><!-- end col -->
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="email" id="email" type="email" class="form-control"
+                                            placeholder="Email*">
+                                    </div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <input type="tel" class="form-control" id="telefono"
+                                            placeholder="Teléfono" />
+                                    </div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control"
+                                            placeholder="Tu mensaje..."></textarea>
+                                    </div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <div class="row">
+                                <div class="col-lg-12 text-end">
+                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary"
+                                        value="Enviar">
+                                    <div id="simple-msg"></div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </form><!-- end form -->
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- CONTACT FORM END-->
+
+    <!-- STRT FOOTER -->
+    <section class="section footer">
+        <!-- <div class="bg-overlay"></div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <img src="https://www.mobilink.cl/img/logomobilinkblanco.png">
+                    </div>
+                   
+                    <div class="mt-4 pt-2 text-center">
+                        <p class="copy-rights text-muted mb-0"> MOTOROLA, MOTO, MOTOROLA SOLUTIONS y el logotipo de la M estilizada son marcas comerciales o marcas comerciales registradas de Motorola Trademark Holdings, LLC y son utilizadas bajo licencia. Todas las demás marcas comerciales pertenecen a sus respectivos propietarios.
+                            <br>
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> Motorola Solutions, Inc. Todos los derechos reservados.
+                        </p>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div>
+    </section>
+    <!-- END FOOTER -->
+
+
+    <!-- Back to top -->
+
+    <a href="#home" data-scroll class="back-to-top" id="back-to-top"> <i class="fa-solid fa-arrow-up"></i></a>
+
+  
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/gumshoe.polyfills.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
