@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Visby';
-  src: url('/fonts/VisbyCF-Regular.ttf') format('truetype');
+  src: url('fonts/VisbyCF-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Visby';
-  src: url('/fonts/VisbyCF-Medium.ttf') format('truetype');
+  src: url('fonts/VisbyCF-Medium.ttf') format('truetype');
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Visby';
-  src: url('/fonts/VisbyCF-Bold.ttf') format('truetype');
+  src: url('fonts/VisbyCF-Bold.ttf') format('truetype');
   font-style: normal;
   font-weight: bold;
 }
@@ -463,8 +463,8 @@ b {
 }
 
 .btn-primary {
-  background: #615fe6;
-  border-color: #615fe6;
+  background: #007ec6;
+  border-color: #007ec6;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -474,14 +474,14 @@ b {
 }
 
 .btn-outline-primary {
-  color: #615fe6;
-  border-color: #615fe6;
+  color: #007ec6;
+  border-color: #007ec6;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  background: #615fe6;
-  border-color: #615fe6;
+  background: #007ec6;
+  border-color: #007ec6;
 }
 
 .bg-success {
